@@ -1,0 +1,30 @@
+{
+  "name": "minivue",
+  "version": "1.0.0",
+  "description": "vue源码解析与实现：分析一个框架最好的方法就是去实现它",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzfrontend/miniVue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzfrontend/miniVue/issues"
+  },
+  "homepage": "https://github.com/dzfrontend/miniVue#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}
