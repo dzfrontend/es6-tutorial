@@ -4,6 +4,7 @@
  * Symbol: es6新增的一个基本数据类型
  *      数据类型：String、Number、Boolean、Undefined、Null、Object加上es6的Symbol
  *      Symbol值是由Symbol函数调用产生的
+ *      每一个Symbol()返回的值都是唯一的，因此一个Symbol值能作为对象属性的标识符
  */
 
 // 1.概念
@@ -13,7 +14,7 @@ var s3 = Symbol('1')
 var s4 = Symbol('1')
 console.log(s1, s2, s3, s4); // Symbol() Symbol() Symbol(1) Symbol(1)
 console.log('typeof:', typeof s1); // 类型为Symbol
-console.log(s3 === s4) // false说明传参一样，值不相等
+console.log(s3 === s4) // false，参数一样但值不相等，说明每一个Symbol()返回的值都是唯一的
 
 // 2.Symbol使用：属性私有化(数据保护)
 
@@ -35,7 +36,7 @@ var Person1 = (function(){
 var p1 = new Person1('Jack', 'man')
 console.log(p1) // P {name: "Jack"} 访问不到gender，需要通过p1.getGender()
 
-// Symbol中
+// Symbol中 Symbol值能作为对象属性的标识符
 var Person2 = (function(){
     var _gender = Symbol('gender') // 用Symbol指定数据类型
     function P(name, gender) {
