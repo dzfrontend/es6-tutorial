@@ -20,6 +20,8 @@ gulp/npm run build
 
 ## 列表
 
+* [ES6 let和const](./src/Let_Const.js)  
+
 * [ES6解构赋值](./src/Destructuring.js)  
 
 * [ES6扩展运算符](./src/Spread-operator.js)  
@@ -30,8 +32,8 @@ gulp/npm run build
 
 * [ES6新增的Symbol基本数据类型](./src/Symbol.js)  
 
-* [ES6迭代器(Iterator)和for...of循环](./src/Iterator.js)  
-
 * [ES6 Set和WeakSet数据结构](./src/Set.js)  
 
 * [ES6 Map和WeakMap数据结构](./src/Map.js)
+
+* [ES6迭代器(Iterator)和for...of循环](./src/Iterator.js)  
