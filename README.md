@@ -37,3 +37,7 @@ gulp/npm run build
 * [ES6 Map和WeakMap数据结构](./src/Map.js)
 
 * [ES6迭代器(Iterator)和for...of循环](./src/Iterator.js)  
+
+* [ES6 class类](./src/Class.js)  
+
+* [ES6 class继承](./src/Extend.js)  
