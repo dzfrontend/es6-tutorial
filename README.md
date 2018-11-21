@@ -41,3 +41,5 @@ gulp/npm run build
 * [ES6 class类](./src/Class.js)  
 
 * [ES6 class继承](./src/Extend.js)  
+
+* [ES6异步编程之Promise](./src/Promise.js)  
