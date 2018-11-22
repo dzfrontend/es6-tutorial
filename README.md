@@ -43,3 +43,7 @@ gulp/npm run build
 * [ES6 class继承](./src/Extend.js)  
 
 * [ES6异步编程之Promise](./src/Promise.js)  
+
+* [ES6异步编程之Generator](./src/Generator.js)  
+
+* [ES6异步编程之async await](./src/Async-await.js)  
